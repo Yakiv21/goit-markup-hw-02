@@ -14,20 +14,26 @@
     --accent-color: #2196F3;
     --white-color: #ffffff;
     --footer-bottom-color: rgba(255, 255, 255, 0.6);
+    --pg-background-color: #E5E5E5;
 }
-/*
-.body {
-   color: #E5E5E5; 
+
+body {
+   background-color: var(--pg-background-color);
+   color: var(--primery-text-color);
+   font-family: Roboto, sans-serif;
+   letter-spacing: 0.03em;
 }
-*/
 
     /* header*/
 .list {
     list-style: none;
 }
-
+    /* Logo */
 .logo {
     color: var(--title-text-color);
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 1.2;
 }
 
 .web-logo {
@@ -40,6 +46,11 @@
 
 .site-nav .link.current {
     color: var(--accent-color);
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover, 
@@ -52,6 +63,14 @@
 }
 */
 
+.address .address-link {
+    color: var(--primery-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
 .address .address-link:hover,
 .address .address-link:focus {
     color: var(--accent-color);
@@ -59,14 +78,32 @@
     /* Hero */
 .hero-title {
     color: var(--white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
-.hero-link {
+.hero-link.button {
     color: var(--white-color);
+    background-color: var(--accent-color);
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
   /* Що ми пропонуєммо */
-.section-title {
+.section .section-title {
     color: var(--title-text-color);
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
 }
 
 .feature-list .title {
@@ -75,22 +112,33 @@
 
 .text {
     color: var(--primery-text-color);
+    font-size: 14px;
+    line-height: 1.71;
 }
 
     /* Чем занимаемся */
 
 .feature-title {
     color: var(--white-color);
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
 }
     /* Наша команда */
 
 .feature-list .name-title {
     color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
 }
 
 .profession {
     color: var(--primery-text-color);
-}
+    font-size: 16px;
+    line-height: 1.19;
+    }
 
 .social .social-link:hover,
 .social .social-link:focus {
@@ -108,15 +156,29 @@
 
 .address {
     color: var(--white-color);
+    font-size: 14px;
+    line-height: 1,71;
 }
 
 .footer-address {
     color: var(--footer-text-color);
+    font-size: 14px;
+    line-height: 1,71;
 }
 
 .call {
     color: var(--white-color);
+font-size: 14px;
+line-height: 1,14;
+text-transform: uppercase;
 }
+
+/*.subscribe {
+   font-weight: 900;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+}*/
 
 .social-company .company-link:hover,
 .social-company .company-link:focus {
@@ -125,9 +187,16 @@
 
 .footer-battom {
     color: var(--footer-bottom-color);
+    font-size: 12px;
+    line-height: 2;
 }
 
 .button {
     color: var(--white-color);
     background-color: var(--accent-color);
+    font-family: inherit;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
 }
