@@ -1,0 +1,133 @@
+/* белый #FFFFFF  */
+/* акцент #2196F3 */	
+/* Заголовок #212121; */
+/* цвет текста основа #757575; */
+/* цвет фона страницы #E5E5E5*/
+/* цвет фона вторичный #F5F4FA*/
+/* цвет фона шапки rgba(0, 0, 0, 0.12)*/
+/* цвет фона футера #2F303A*/
+
+:root {
+    --primery-text-color: #757575;
+    --title-text-color: #212121;
+    --footer-text-color: rgba(255, 255, 255, 0.6);
+    --accent-color: #2196F3;
+    --white-color: #ffffff;
+    --footer-bottom-color: rgba(255, 255, 255, 0.6);
+}
+/*
+.body {
+   color: #E5E5E5; 
+}
+*/
+
+    /* header*/
+.list {
+    list-style: none;
+}
+
+.logo {
+    color: var(--title-text-color);
+}
+
+.web-logo {
+    color: var(--accent-color);
+}
+
+.site-nav .link {
+    color: var(--title-text-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus{
+    color: var(--accent-color);
+}
+/*
+.address-link {
+    color: var(--primery-text-color);
+}
+*/
+
+.address .address-link:hover,
+.address .address-link:focus {
+    color: var(--accent-color);
+}
+    /* Hero */
+.hero-title {
+    color: var(--white-color);
+}
+
+.hero-link {
+    color: var(--white-color);
+}
+  /* Що ми пропонуєммо */
+.section-title {
+    color: var(--title-text-color);
+}
+
+.feature-list .title {
+    color: var(--title-text-color);
+}
+
+.text {
+    color: var(--primery-text-color);
+}
+
+    /* Чем занимаемся */
+
+.feature-title {
+    color: var(--white-color);
+}
+    /* Наша команда */
+
+.feature-list .name-title {
+    color: var(--title-text-color);
+}
+
+.profession {
+    color: var(--primery-text-color);
+}
+
+.social .social-link:hover,
+.social .social-link:focus {
+    color: var(--accent-color);
+}
+
+    /*Постоянные клиенты*/  
+    
+.clients .clients-link:hover,
+.clients .clients-link:focus {
+    color: var(--accent-color);
+}
+
+    /* Футтер*/
+
+.address {
+    color: var(--white-color);
+}
+
+.footer-address {
+    color: var(--footer-text-color);
+}
+
+.call {
+    color: var(--white-color);
+}
+
+.social-company .company-link:hover,
+.social-company .company-link:focus {
+    color: var(--accent-color);
+}
+
+.footer-battom {
+    color: var(--footer-bottom-color);
+}
+
+.button {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
