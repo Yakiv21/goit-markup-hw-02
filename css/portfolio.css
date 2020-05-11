@@ -19,13 +19,30 @@ body {
 .list {
     list-style: none;
 }    
-/*.hero-portfolio.button {
+
+.button-hero {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+    border-radius: 0;
+    background: #ccc;
+}
+
+.button-hero{
     color: var(--title-text-color);
     background-color: var(--bt-background-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-}*/
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.button-hero:hover,
+.button-hero:focus {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
 
 .work-title.button:hover,
 .work-title.button:focus {
